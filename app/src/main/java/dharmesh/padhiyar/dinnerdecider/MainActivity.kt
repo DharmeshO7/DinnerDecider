@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                 addFoodTxt.text.clear()
                 Toast.makeText(this, "Food added!", Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, "Enter something fool!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Enter something fool! Ahole", Toast.LENGTH_SHORT).show()
             }
         }
     }
