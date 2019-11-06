@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             if (!foodName.isEmpty()) {
                 foodList.add(foodName)
                 addFoodTxt.text.clear()
-                Toast.makeText(this, "Food added! Go and Decide.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Food added!", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Enter something fool!", Toast.LENGTH_SHORT).show()
             }
