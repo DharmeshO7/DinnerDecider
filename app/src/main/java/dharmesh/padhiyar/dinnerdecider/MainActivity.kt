@@ -38,6 +38,8 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Food added!", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Enter something fool! Ahole", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Enter something fool! Idiot", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "^_^", Toast.LENGTH_SHORT).show()
             }
         }
     }
